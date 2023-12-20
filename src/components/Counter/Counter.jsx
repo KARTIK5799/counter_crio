@@ -15,7 +15,7 @@ const Counter = () => {
 
   return (
     <div className="max-w-md mx-auto my-10 p-10 bg-gray-100 border rounded-md shadow-md">
-      <h1 className="text-4xl font-bold mb-4 text-center">{count}</h1>
+      <h1 className="text-4xl font-bold mb-4 text-center">Count: {count}</h1>
       <button
         className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mr-2"
         onClick={handleIncrease}
