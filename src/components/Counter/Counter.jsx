@@ -15,7 +15,7 @@ const Counter = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <div className="max-w-md mx-auto p-6 bg-white border rounded-md shadow-md">
+      <div className="max-w-md mx-auto p-6 bg-gray-100 border rounded-md shadow-md">
         <h1 className="text-3xl font-bold mb-4 text-center">Counter App</h1>
         <h2 className="text-lg  mb-4 text-center">Count: {count}</h2>
         <button
