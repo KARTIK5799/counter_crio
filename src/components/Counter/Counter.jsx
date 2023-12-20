@@ -20,13 +20,13 @@ const Counter = () => {
         className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mr-2"
         onClick={handleIncrease}
       >
-        Increase
+        Increment
       </button>
       <button
         className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"
         onClick={handleDecrease}
       >
-        Decrease
+        Decrement
       </button>
     </div>
   );
